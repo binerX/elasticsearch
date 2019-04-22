@@ -1,0 +1,23 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: es-server
+
+eureka:
+  instance:
+    statusPageUrlPath: /info
+    healthCheckUrlPath: /health
+
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://10.0.0.12:8761/eureka/
+
+elasticsearch:
+  server:
+    url: 106.13.34.237
+    port: 9200
+    quest: http
