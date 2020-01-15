@@ -1,7 +1,7 @@
-package com.shouzan.es.rest;
+package com.bin.es.rest;
 
-import com.shouzan.es.client.RestFastClient;
-import com.shouzan.es.entity.SearchEngine;
+import com.bin.es.client.RestFastClient;
+import com.bin.es.entity.SearchEngine;
 import lombok.extern.slf4j.Slf4j;
 import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
@@ -65,7 +65,7 @@ public class ElasticSeniorController {
         try (RestHighLevelClient client = restFastClient.getClient()) {
 
             // 创建search请求
-            SearchRequest searchRequest = new SearchRequest("data_user_a");
+            SearchRequest searchRequest = new SearchRequest("data_sou_d_user");
 
             // 用SearchSourceBuilder来构造查询请求体 ,请仔细查看它的方法，构造各种查询的方法都在这。
             SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();

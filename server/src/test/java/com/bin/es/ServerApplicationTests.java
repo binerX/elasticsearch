@@ -1,4 +1,4 @@
-package com.shouzan.es;
+package com.bin.es;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

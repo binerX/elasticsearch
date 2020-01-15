@@ -1,4 +1,4 @@
-package com.shouzan.es.client;
+package com.bin.es.client;
 
 import org.apache.http.HttpHost;
 import org.elasticsearch.client.RestClient;

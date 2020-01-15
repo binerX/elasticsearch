@@ -1,13 +1,13 @@
-package com.shouzan.es;
+package com.bin.es;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ServerApplication {
+public class ClientApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServerApplication.class, args);
+        SpringApplication.run(ClientApplication.class, args);
     }
 
 }

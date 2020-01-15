@@ -1,11 +1,11 @@
-package com.shouzan.es.entity;
+package com.bin.es.entity;
 
 import lombok.Data;
 
 import java.io.Serializable;
 
 /**
- * @ClassName: com.shouzan.es.entity.SearchEngine
+ * @ClassName: SearchEngine
  * @Author: bin.yang
  * @Date: 2019/4/9 12:04
  * @Description: TODO

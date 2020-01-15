@@ -1,4 +1,4 @@
-package com.shouzan.es.biz;
+package com.bin.es.biz;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;

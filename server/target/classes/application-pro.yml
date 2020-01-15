@@ -23,4 +23,3 @@ elastic:
     port: 9200
     quest: http
 
-url: 106.13.34.237

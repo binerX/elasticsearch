@@ -1,7 +1,6 @@
-package com.shouzan.es.rest;
+package com.bin.es.rest;
 
-import com.shouzan.es.client.RestFastClient;
-import com.shouzan.es.entity.LogEntity;
+import com.bin.es.client.RestFastClient;
 import lombok.extern.slf4j.Slf4j;
 import org.elasticsearch.ElasticsearchException;
 import org.elasticsearch.action.DocWriteResponse;
